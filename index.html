@@ -2,67 +2,77 @@
 <html lang="en">
 <head>
   <title>Bootstrap Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-    <link rel="stylesheet" href="assets/css/style.css">
+<!--     <link rel="stylesheet" href="assets/css/style.css"> -->
 </head>
 <body>
 
-  <div class="container">
-    <div class="row">
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Mike Murphy</a>
+    </div>
 
-        <div class="col-md-2">
-          <p id="header-box">Mike Murphy</p>
-        </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-sm-8"> <!-- column for page header section -->
+      <div class="page-header"> <!-- page header container -->
+        <h1>About Me</h1>
+          <div class="row"> <!-- thumbnail and caption row -->
+            <div class="col-sm-3"> <!-- column 3 for picture -->
+            <img src="assets/images/me.jpg" class="thumbnail" alt="portfolio pic" width="150px" height="150px">
+            </div>
+            <div class="col-sm-9"> <!-- column 9 for caption -->
+              <div class="caption">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis officiis, quasi eius qui officia suscipit eaque ullam fugiat aperiam, ipsam inventore, rerum voluptatibus rem est nihil dolor distinctio placeat quisquam.</p>
+              </div>  <!-- div class caption -->
+            </div> <!-- div class col-sm-9 -->
+          </div> <!-- thumbnail and caption row end -->
+      </div> <!-- div class page header end -->
+    </div> <!-- div class col-sm-8 end -->
+
+    <div class="col-sm-4"> <!-- panel section 4 begin -->
+        <div class="panel panel-default"> <!-- panel section begin -->
+            <div class="panel-heading"><!--  panel heading section begin -->
+              <h3 class="panel-title">Sidebar</h3>
+            </div> <!-- panel heading section end -->
+            <div class="panel-body"> <!-- panel body section begin -->
+              Sidebar Content
+            </div> <!-- panel body section end -->
+        </div><!-- panel section end -->
+    </div> <!-- panel section 4 end -->
+  </div> <!-- div class row end -->
+</div> <!-- container div end -->
+
+
+
   
 
-        <div class="col-md-6">
-        </div>
-
-        <div class="col-md-4">
-          <ul class="nav-section">
-            <li class="nav-text">About |</li>
-            <li class="nav-text">Portfolio |</li>
-            <li class="nav-text">Contact |</li>
-        </div>
-
-    </div>
-
-    <div class="row">
-      <div class="about-me-section">
-
-      <div class="col-md-8">
-        <h2>About Me</h2>
-        <hr>
-        <img src="assets/images/me.jpg" width="200px" height="200px">
-        <p id="about-me-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde eos impedit, sed, modi pariatur in maxime explicabo rem tempora quo ullam nam veritatis aut natus accusamus ut beatae praesentium dignissimos.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias dolores et adipisci ab tempora maxime cum in, repellat earum optio alias illo culpa eum, amet sed blanditiis sit. Voluptate, ab!</p>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus voluptates perferendis rem consequuntur provident, cupiditate quis! Dolorum aliquam nulla expedita dignissimos esse beatae, nobis veritatis, tempora iure mollitia, incidunt officiis.
-        </p>
-      </div>
-
-       <div class="col-md-4">
-        <h2 id="connect-with-me-text">Connect With Me</h2>
-          <hr>
-          <img src="assets/images/github.png" width="50px" height="50px">
-          <img src="assets/images/linkedin.png" width="50px" height="50px">
-          <img src="assets/images/stack-overflow.png" width="50px" height="50px">
-       </div>
-
-     </div>  
-
-    </div>
-
-    <div class="row">
-
-      <div class="col-md-12">
-        <p id="footer-text">© Copyright Mike Murphy 2017</p>
-      </div>
-    </div> 
-
-  </div>
-
-</body>
+</body> <!-- body end -->
 </html>

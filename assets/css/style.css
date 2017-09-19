@@ -57,18 +57,31 @@
     font-weight: bold;
     font-style:italic;
     font-family: sans-serif;
-  }
+    padding:0px;
+    font-size: 18px;
+   }
+
   .about-me-section{
     padding-top:20px;
+  }
 
+  #profile-pic {
+    padding-right:20px;
+    padding-bottom:20px;
+    float:left;
   }
 
   #about-me-text {
     float:left;
+    font-weight: bold;
   }
 
   #footer-text {
     font-weight: bold;
     text-align: center;
     padding:30px;
+  }
+
+  .about-me-container {
+    padding-left: 20px;
   }
